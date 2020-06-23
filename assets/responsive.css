@@ -1,0 +1,133 @@
+@media (max-width:1000px){
+	.str img{
+		width:120px;
+	}
+	.layanan {
+		width: 25%;
+		margin-bottom: 20px;
+		padding-left: -10px;
+		padding: 0px;
+	}
+	nav{
+		display: none;
+	}
+	span.fa{
+		display: block;
+		margin-right: 20px;
+	}
+	.jumbotron{
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: -600px -20px;
+	}
+	.kontent{
+		margin-left: 50px;
+	}
+
+	.str-column-1 , .str-column-2 , .str-column-3{
+		margin-bottom: -100px;
+	}
+	.kontak{
+		padding-left: 40px;
+	}
+}
+
+@media (max-width : 670px){
+	.jumbotron{
+		width: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: -900px 0;
+	}
+	hr.kep{
+		margin-top: 20px;
+		margin: auto;
+		margin-bottom: 20px;
+	}
+	div.str {
+		flex:auto;
+		width: 250px;
+		height: 350px;
+	}
+	.str img{
+		width:150px;
+	}
+
+	.struktur{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+
+	div.str {
+		flex:auto;
+		width: 350px;
+		height: 200px;
+		margin-bottom: 50px;
+	}
+
+	.str-column-1 , .str-column-2 , .str-column-3{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.kontak{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		margin: auto;
+	}
+
+	.kon-1, .kon-2, .kon-3{
+		margin-bottom: 40px;
+	}
+
+	aside{
+		margin-bottom: 50px;
+	}
+
+	.header-right{
+    display: none;
+    }
+
+    .menu-icon {
+    display: block;
+	}
+  
+  	nav {
+    display: none;
+  	}
+  
+  	.menu-icon {
+    display: block;
+  	}
+
+  	footer {
+    text-align: center;
+  	}
+
+  	.layanan {
+		width: 100%;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+	}
+
+	.layanan:hover {
+		width: 100%;
+		margin: 0px 0px 20px 0px;
+		padding: 0px;
+	}
+
+	.tentang {
+		width: 50%;
+	}
+	.kontent{
+		margin-left: 0;
+	}
+}
